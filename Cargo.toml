@@ -5,7 +5,7 @@ members = [
     "rtl",
     "rtl-sys",
     "sdr",
-    "sdr-rustler/native/sdr"
+    "sdr-rustler/native"
 ]
 
 # Debug settings
