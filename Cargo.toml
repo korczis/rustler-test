@@ -1,6 +1,11 @@
 [workspace]
 members = [
-    "native/calculator"
+    "hackrf",
+    "hackrf-sys",
+    "rtl",
+    "rtl-sys",
+    "sdr",
+    "sdr-rustler/native"
 ]
 
 # Debug settings
