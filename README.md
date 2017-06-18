@@ -1,6 +1,8 @@
 # RustlerTest
 
-**TODO: Add description**
+## Status
+
+[![Build Status](https://travis-ci.org/korczis/rustler-test.svg?branch=master)](https://travis-ci.org/korczis/rustler-test)
 
 ## Getting Started
 
