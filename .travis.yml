@@ -1,5 +1,7 @@
 language: elixir
 
+sudo: false
+
 cache:
   directories:
     - $HOME/.cargo
