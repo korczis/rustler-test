@@ -18,14 +18,14 @@ mod atoms {
     }
 }
 
-rustler_export_nifs! {
+rustler_export_nifs!(
     "Elixir.Calculator.Native",
     [
         ("add", 2, add),
         ("sub", 2, sub)
         ],
     None
-}
+);
 
 fn add<'a>(env: NifEnv<'a>, args: &[NifTerm<'a>]) -> NifResult<NifTerm<'a>> {
     let num1: i64 = try!(args[0].decode());
